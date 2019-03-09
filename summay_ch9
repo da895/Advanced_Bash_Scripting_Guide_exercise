@@ -1,0 +1,42 @@
+
+ ##9.1 Internal Variables
+	$BASH     -- The path to the Bash binary itself
+	$BASE_ENV -- An environmental variable pointing to a Bash startup file to be read when a script is invoked
+	$BASH_SUBSHELL -- A variable indicating the subshell level. 
+	$BASHPID  -- Process ID of the current instance of Bash. 
+	$$ -- Process ID (PID) of the script itself. 
+	$BASH_VERSINFO[n] -- A 6-element array containing version information about the installed release of Bash. 
+	$BASH_VERSION -- The version of Bash installed on the system
+	$CDPATH -- A colon-separated list of search paths available to the cd command
+	$DIRSTACK -- The top value in the directory stack
+	$EDITOR -- The default editor invoked by a script, usually vi or emacs
+	$FUNCNAME -- Name of the current function
+	$GLOBIGNORE -- A list of filename patterns to be excluded from amtching in globbing
+	$GROUP -- Groups current user belongs to
+	$HOME  -- Home directory of the user
+	$HOSTNAME -- 
+	$HOSTTYPE --  
+	$IFS -- internal field separator  **
+	$IGNOREEOF -- how many end-of-files(Ctrl-D) the shell will ignore before logging out
+	$LC_COLLATE --  
+	$LC_CTYPE -- 
+	$LINENO -- This variable is the line number of the shell script in which this variable appears. debugging purposes
+	$MACHTYPE -- machine type	
+	$OLDPWD -- 
+	$OSTYPE -- opreating system type
+	$PATH -- Path to binaries
+	$PIPESTATUS -- Array variable holding exit status of last executed foreground pipe, $PIPESTATUS[0] holds the exit status of the first command in the pipe, $PIPESTATUS[1] the exit status of the second command, and so on.
+	$PPID -- The $PPID of a process ID of its parent process.
+	$PROMPT-COMMAND -- ??
+	$PS1 -- This is the main prompt, seen at the command-line.
+	$PS2 -- The secondary prompt, seen when additional input is expected. It displays as ">"
+	$PS3 -- The tertiary prompt, displayed in a select loop.
+	$PS4 -- The quartenary prompt, shown at the beginning of each line of output when invoking a script with -x option. It displays as "+".
+	$PWD -- Working directory
+	$REPLY -- The default value when a variable is not supplied to 'read' command.
+	$SECONDS -- The number of seconds the script has been running.
+	$SHELLOPTS -- The list of enabled shell options.	
+	$SHLVL -- Shell level, how deeply Bash is nested. If, at the command -linem, $SHLVL is 1, then in a script it will increment to 2. Use $BASH_SUBSHELL when you need an indication of subshell nesting.
+	$TMOUT -- If the $TMOUT environmental variable is set to a non-zero value time, then the shell prompt will time out after $time seconds. This will cause a logout.
+	
+	
